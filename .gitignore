@@ -1,0 +1,7 @@
+node_modules/
+venv/
+__pycache__/
+
+# too large for git:
+data/apple/apple-health/export.xml
+data/apple/apple-health/export_cda.xml

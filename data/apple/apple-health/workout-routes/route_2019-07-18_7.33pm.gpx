@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Apple Health Export" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <time>2022-06-09T00:52:32Z</time>
+  </metadata>
+  <trk>
+    <name>Route 2019-07-18 7:33pm</name>
+    <trkseg>
+      <trkpt lon="-90.061831" lat="35.138317"><ele>72.757881</ele><time>2019-07-19T00:33:30Z</time><extensions><speed>1.555078</speed><course>220.630371</course><hAcc>4.000604</hAcc><vAcc>3.000000</vAcc></extensions></trkpt>
+      <trkpt lon="-90.061838" lat="35.138309"><ele>72.787086</ele><time>2019-07-19T00:33:31Z</time><extensions><speed>1.555078</speed><course>223.029785</course><hAcc>4.000604</hAcc><vAcc>3.000000</vAcc></extensions></trkpt>
+      <trkpt lon="-90.061847" lat="35.138301"><ele>72.792450</ele><time>2019-07-19T00:33:32Z</time><extensions><speed>1.323746</speed><course>224.589813</course><hAcc>4.000604</hAcc><vAcc>3.000000</vAcc></extensions></trkpt>
+      <trkpt lon="-90.061853" lat="35.138294"><ele>72.794243</ele><time>2019-07-19T00:33:33Z</time><extensions><speed>1.354692</speed><course>222.820175</course><hAcc>4.000604</hAcc><vAcc>3.000000</vAcc></extensions></trkpt>
+      <trkpt lon="-90.061865" lat="35.138283"><ele>72.811852</ele><time>2019-07-19T00:33:34Z</time><extensions><speed>1.462465</speed><course>223.278549</course><hAcc>4.000604</hAcc><vAcc>3.000000</vAcc></extensions></trkpt>
+      <trkpt lon="-90.061877" lat="35.138272"><ele>72.830299</ele><time>2019-07-19T00:33:35Z</time><extensions><speed>1.462465</speed><course>225.370514</course><hAcc>4.000604</hAcc><vAcc>3.000000</vAcc></extensions></trkpt>
+      <trkpt lon="-90.061889" lat="35.138261"><ele>72.853577</ele><time>2019-07-19T00:33:36Z</time><extensions><speed>1.462465</speed><course>223.890396</course><hAcc>6.000906</hAcc><vAcc>3.000000</vAcc></extensions></trkpt>
+    </trkseg>
+  </trk>
+</gpx>
