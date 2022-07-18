@@ -6,9 +6,10 @@ const path = require('path');
 // Path to static directory
 // app.use(express.static('static'));
 app.use(express.static(path.join(__dirname, 'data')));
+app.use(express.static(path.join(__dirname, 'static')));
+
 
 // Response
-
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
