@@ -1,3 +1,7 @@
+html {
+  background-color: #1e1e1e; /* Visual Studio Code Dark Mode */
+}
+
 .center-screen {
   position: absolute;
   top: 50%;
