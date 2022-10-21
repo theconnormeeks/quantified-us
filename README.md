@@ -9,7 +9,7 @@ https://quantifiedus.com
 
 Node server:
 ```sh
-node app.js # navigate to localhost:8080
+node node/app.js # navigate to localhost:8080
 ```
 
 Flask server:
