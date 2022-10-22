@@ -1,0 +1,17 @@
+
+/* Visual Studio Code Dark Mode */
+
+/*
+html {
+  background-color: #1e1e1e; 
+}
+*/
+
+.center-screen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width:50vw;
+  }

@@ -3,7 +3,10 @@
 # Need a Flask server to serialize data between Python and Javascript
 # https://healeycodes.com/talking-between-languages
 
+
 from flask import Flask, jsonify, request, render_template
+from data.netlfix import *
+
 app = Flask(__name__)
 
 # Render the homepage
@@ -17,7 +20,8 @@ def test_page():
 def hello():
     # GET request
     if request.method == 'GET':
-        message = {'greeting':'Hello from Flask!'}
+        # message = {'greeting':'Hello from Flask!'}
+        message = myDict
         return jsonify(message)  # serialize and use JSON headers
 
     # POST request

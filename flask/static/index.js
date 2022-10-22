@@ -15,6 +15,6 @@ fetch('/api')
     .then(function (json) {
         console.log('GET response as JSON:');
         console.log(json); // Here’s our JSON object
-        document.getElementById('myData').innerHTML = json.greeting; // pass data to HTML DOM
+        document.getElementById('myData').innerHTML = json; // pass data to HTML DOM
     })
     
