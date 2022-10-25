@@ -31,9 +31,4 @@ myVals = list(myDict.values())
 
 myDict = {str(key): str(value) for key, value in myDict.items()} # convert dates to strings to serialize to json
 
-# print(myDict)
-
-# for i in range(len(myDict)):
-#     print(str(myKeys[i]) + ': ' + str(myVals[i]))
-
 

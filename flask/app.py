@@ -1,6 +1,4 @@
-# start flask server using "python app.py" (navigate to correct localhost port)
-
-# Need a Flask server to serialize data between Python and Javascript
+# Flask server to serialize data between Python and Javascript
 # https://healeycodes.com/talking-between-languages
 
 
@@ -25,10 +23,10 @@ def hello():
         return jsonify(message)  # serialize and use JSON headers
 
     # POST request
-    if request.method == 'POST':
-        print('Incoming..')
-        print(request.get_json())  # parse as JSON
-        return 'OK', 200
+    # if request.method == 'POST':
+    #     print('Incoming..')
+    #     print(request.get_json())  # parse as JSON
+    #     return 'OK', 200
 
 if __name__ == "__main__":
     app.run(debug=True)
