@@ -5,7 +5,7 @@ import pandas as pd
 from pandas.tseries.offsets import *
 import json
 
-data ='./NetflixViewingHistory.csv'
+data ='/Users/connormeeks/Desktop/quantified-us/flask/static/data/netflix/NetflixViewingHistory.csv' #TODO: make this a relative file path
 
 df = pd.read_csv(data)
 df["Date2"] = pd.to_datetime(df["Date"])

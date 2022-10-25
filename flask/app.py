@@ -5,7 +5,7 @@
 
 
 from flask import Flask, jsonify, request, render_template
-from data.netlfix import *
+from static.data.netflix.netlfix import *
 
 app = Flask(__name__)
 
