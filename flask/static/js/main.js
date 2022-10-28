@@ -1,10 +1,13 @@
-// Send the same request
-fetch('/api')
+fetch('/netflix')
     .then(response => response.json()) // But parse it as JSON this time
-    .then(json => createGoogleChart(json))
+    .then(json => createGoogleChart(json, 'Netflix'))
+
+fetch('/youtube')
+    .then(response => response.json()) // But parse it as JSON this time
+    .then(json => createGoogleChart(json, 'Youtube'))
 
 // Render the chart
-    function createGoogleChart(json) {
+    function createGoogleChart(json, element) {
         google.charts.load('current', {'packages':['corechart', 'line']});
         google.charts.setOnLoadCallback(drawChart);
 
@@ -19,7 +22,7 @@ fetch('/api')
             }
 
             var linearOptions = {
-                title: 'Netflix Videos Watched',
+                title: element,
                 legend: 'none',
                 width: 1000,
                 height: 500,
@@ -29,11 +32,10 @@ fetch('/api')
                     },
                 vAxis: {
                     title: 'Videos',
-                    //   ticks: [0, 1000, 2000, 4000, 6000]
                     }
             };
 
-            var linearChart = new google.visualization.LineChart(document.getElementById('linear_div'));
+            var linearChart = new google.visualization.LineChart(document.getElementById(element));
             linearChart.draw(data, linearOptions);
         }
 }

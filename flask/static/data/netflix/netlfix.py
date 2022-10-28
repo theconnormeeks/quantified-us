@@ -1,9 +1,7 @@
-import csv
-from hashlib import new
-import json
 import pandas as pd
+
+from hashlib import new
 from pandas.tseries.offsets import *
-import json
 
 data ='/Users/connormeeks/Desktop/quantified-us/flask/static/data/netflix/NetflixViewingHistory.csv' #TODO: make this a relative file path
 
@@ -29,6 +27,6 @@ myDict = dict(df['month ending day'].value_counts().sort_index())
 myKeys = list(myDict.keys())
 myVals = list(myDict.values())
 
-myDict = {str(key): str(value) for key, value in myDict.items()} # convert dates to strings to serialize to json
+myDictNetflix = {str(key): str(value) for key, value in myDict.items()} # convert dates to strings to serialize to json
 
 
