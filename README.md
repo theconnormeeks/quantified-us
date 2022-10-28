@@ -7,5 +7,5 @@ A personal data science platform.
 
 Flask server:
 ```sh
-python flask/app.py # navigate to localhost:5000
+python3 flask/app.py # navigate to localhost:5000
 ```
