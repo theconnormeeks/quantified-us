@@ -5,3 +5,6 @@ __pycache__/
 # too large for git:
 flask/static/data/apple/apple-health/export.xml
 flask/static/data/apple/apple-health/export_cda.xml
+
+# ignore access token cache (Tesla)
+cache.json
